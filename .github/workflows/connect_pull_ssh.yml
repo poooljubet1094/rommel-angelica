@@ -25,7 +25,7 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H ${{ secrets.SSH_HOST }} > ~/.ssh/known_hosts
       - name: Deploy to Lightsail
-        run: scp -r ./dist/* {{ secrets.SSH_USER }}@${{ secrets.LIGHTSAIL_IP }}:{{ secrets.WORK_DIR }}
+        run: scp -r ./dist/* {{ secrets.SSH_USER }}@${{ secrets.LIGHTSAIL_IP }}:{{ secrets.WOKR_DIR }}
       - name: cleanup
         run: rm -rf ~/.ssh
         
