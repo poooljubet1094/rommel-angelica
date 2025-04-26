@@ -18,7 +18,15 @@ jobs:
           ssh-keyscan -H ${{ secrets.SSH_HOST }} > ~/.ssh/known_hosts
       - name: SSH and Run Commands
         run: |
-          ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "cd {{ secrets.WORK_DIR }} && nvm use 22 && git checkout {{ secrets.MAIN_BRANCH }} && git pull && npm run install && npm run build && sudo service nginx restart"
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} <<EOF
+          cd ${{ secrets.WORK_DIR }} 
+          nvm use 22
+          git checkout ${{ secrets.MAIN_BRANCH }}
+          git pull
+          npm install
+          npm run build
+          sudo service nginx restart
+          exit
       - name: cleanup
         run: rm -rf ~/.ssh
         
