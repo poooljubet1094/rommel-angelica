@@ -10,22 +10,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-      - name: Use Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22.15'
-      - run: npm install
-      - run: npm run build
-      
-      - name: Set up SSH
+      - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H ${{ secrets.SSH_HOST }} > ~/.ssh/known_hosts
-      - name: Deploy to Lightsail
-        run: scp -r /home/runner/work/rommel-angelica/rommel-angelica/dist/* {{ secrets.SSH_USER }}@${{ secrets.LIGHTSAIL_IP }}:{{ secrets.WORK_DIR }}
+      - name: SSH and Run Commands
+        run: |
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} <<EOF
+          cd {{ secrets.WORK_DIR }}
+          nvm use 22
+          git checkout {{ secrets.MAIN_BRANCH }}
+          git pull
+          npm run install
+          npm run build
+          sudo service nginx restart
+          EOF
       - name: cleanup
         run: rm -rf ~/.ssh
         
