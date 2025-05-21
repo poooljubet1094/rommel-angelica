@@ -43,9 +43,9 @@
         <div class="flex flex-col lg:flex-row xl:flex-row mt-8">
             <div class="w-full lg:w-1/2 xl:w-1/2 p-8 flex flex-col items-start lg:items-end xl:items-end border-primary border-r-0 border-l-2 lg:border-r-2 lg:border-l-0 xl:border-r-2 xl:border-l-0">
                 <div class="my-auto text-4xl text-primary font-croissant">First Dance</div>
-                <div class="my-auto font-josefin-san text-lg">5:15 PM</div>
+                <div class="my-auto font-josefin-san text-lg">5:00 PM</div>
                 <div class="uppercase font-josefin-san mt-2 text-sm text-start lg:text-end xl:text-end">
-                    Please join us for our first dance as a married couple. We will be dancing to "Forever and ever and always" by Ryan Mack.
+                    Please join us for our first dance as a married couple. We will be dancing to "Die With A Smile" by Lady Gaga &AMP; Bruno Mars.
                 </div>
             </div>
             <div class="w-full lg:w-1/2 xl:w-1/2 h-0 lg:h-auto xl:h-auto">
