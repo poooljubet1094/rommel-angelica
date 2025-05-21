@@ -56,7 +56,23 @@ function generateId(length: number, name: string) {
 </script>
 
 <template>
-    <div class="bg-[#e4a4ac] p-2 rounded-2xl">
+    <div class="flex justify-center flex-col w-full px-4">
+        <div class="text-center uppercase max-w-2xl mx-auto">
+            <div class="text-4xl font-pinyon capitalize">Attire</div>
+            <div class="">We would like to see you in your</div>
+            <div class="font-bold">Semi formal attire</div>
+            <div class="mt-2">We encourage you to dress according to our wedding color</div>
+            <div class="flex gap-2 w-full justify-center mt-2">
+                <div class="h-12 w-12 bg-[#e5e8ed] rounded-full shadow-2xl border border-gray-300"></div>
+                <div class="h-12 w-12 bg-[#ead1cc] rounded-full shadow-2xl border border-gray-300"></div>
+                <div class="h-12 w-12 bg-[#d39193] rounded-full shadow-2xl border border-gray-300"></div>
+                <div class="h-12 w-12 bg-[#233661] rounded-full shadow-2xl border border-gray-300"></div>
+                <div class="h-12 w-12 bg-[#2c2930] rounded-full shadow-2xl border border-gray-300"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bg-[#e4a4ac] p-2 rounded-2xl mt-4">
         <div class="p-6 font-josefin-san w-full max-w-4xl rounded-2xl shadow-2xl bg-[#feebed]">
             <div class="text-4xl tracking-widest">RSVP</div>
             <div class="text-sm upper">We've reserved a seat(s) for you. The favor of your reply is requested until <strong>June 5, 2025</strong></div>
@@ -105,6 +121,17 @@ function generateId(length: number, name: string) {
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="flex justify-center flex-col w-full mt-4 p-4">
+        <div class="text-center uppercase mt-4 max-w-2xl mx-auto">
+            <div class="text-4xl font-pinyon capitalize">Gift</div>
+            <div class="mt-2">With all that we have, we are trully blessed. Your presence and prayers are all that we request. But if you desire to give nonetheless a monetary gift is one we suggest.</div>
+        </div>
+        <div class="text-center uppercase mt-4 max-w-2xl mx-auto">
+            <div class="text-4xl font-pinyon capitalize">Unplugged Ceremony</div>
+            <div class="mt-2">We invite you to be fully present during our ceremony. Kindly put your cameras and phones off. We hire professional photographers and videographers to capture the event.</div>
         </div>
     </div>
 </template>
