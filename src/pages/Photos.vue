@@ -102,31 +102,31 @@ function scrollToRight(scrollContainer: any) {
             <div class="taiwan-scroll overflow-x-scroll overflow-hidden mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-6xl xl:max-w-6xl">
                 <div class="flex flex-nowrap w-full justify-between gap-4 mb-4">
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/expressive/pink/image1.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/expressive/pink/image1-min.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/expressive/pink/image2.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/expressive/pink/image2-min.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/expressive/pink/image3.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/expressive/pink/image3-min.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/expressive/pink/image4.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/expressive/pink/image4-min.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/expressive/pink/image5.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/expressive/pink/image5-min.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/expressive/pink/image6.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/expressive/pink/image6-min.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/expressive/pink/image7.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/expressive/pink/image7-min.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/expressive/pink/image8.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/expressive/pink/image8-min.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/expressive/pink/image9.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/expressive/pink/image9-min.JPG" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                 </div>
             </div>
@@ -187,61 +187,61 @@ function scrollToRight(scrollContainer: any) {
             <div class="kimono-scroll overflow-x-scroll overflow-hidden mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-6xl xl:max-w-6xl">
                 <div class="flex flex-nowrap w-full justify-between gap-4 mb-4">
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image1.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image1-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image2.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image2-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image3.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image3-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image4.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image4-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image5.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image5-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image6.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image6-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image7.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image7-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image8.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image8-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image9.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image9-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image10.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image10-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image11.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image11-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image12.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image12-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image13.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image13-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image14.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image14-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image15.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image15-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image16.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image16-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image18.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image18-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image19.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image19-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/kimono/image20.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                        <img src="../assets/gallery/kimono/image20-min.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
                         <img src="../assets/gallery/japan/image4.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
