@@ -9,7 +9,7 @@
         </div>
         <div class="my-4 flex justify-between w-full flex-nowrap">
             <div class="w-full h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                <img src="../assets/gallery/expressive/pink/image3.JPG" alt="Hero Image" class="w-full h-auto rounded-2xl" />
+                <img src="../assets/gallery/expressive/pink/image3-min.JPG" alt="Hero Image" class="w-full h-auto rounded-2xl" />
             </div>
         </div>
         <div class="flex flex-col lg:flex-row xl:flex-row justify-center text-center text-2xl tracking-widest  uppercase p-4">
