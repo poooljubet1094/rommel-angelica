@@ -30,6 +30,16 @@ function momentsRight() {
     scrollToRight(scrollContainer);
 }
 
+function kimonoLeft() {
+    const scrollContainer = document.querySelector('.kimono-scroll');
+    scrollToLeft(scrollContainer);
+}
+
+function kimonoRight() {
+    const scrollContainer = document.querySelector('.kimono-scroll');
+    scrollToRight(scrollContainer);
+}
+
 function scrollToLeft(scrollContainer: any) {
     if (scrollContainer) {
         scrollContainer.scrollBy({
@@ -145,9 +155,6 @@ function scrollToRight(scrollContainer: any) {
                         <img src="../assets/gallery/japan/image3.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
-                        <img src="../assets/gallery/japan/image4.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
-                    </div>
-                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
                         <img src="../assets/gallery/japan/image5.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
                     </div>
                     <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
@@ -171,6 +178,83 @@ function scrollToRight(scrollContainer: any) {
             </div>
             <div class="absolute top-40 right-[-20px]">
                 <button class="bg-[#506582] text-white rounded-full p-4" @click="momentsRight()">
+                    <img src="../assets/svgs/chevron_right_24dp_E3E3E3.svg" alt="Left Arrow" class="w-6 h-6" />
+                </button>
+            </div>
+        </div>
+        <div class="w-full text-center text-6xl mt-12 font-stella">Kimono</div>
+        <div class="relative w-full">
+            <div class="kimono-scroll overflow-x-scroll overflow-hidden mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-6xl xl:max-w-6xl">
+                <div class="flex flex-nowrap w-full justify-between gap-4 mb-4">
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image1.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image2.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image3.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image4.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image5.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image6.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image7.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image8.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image9.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image10.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image11.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image12.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image13.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image14.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image15.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image16.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image18.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image19.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/kimono/image20.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                    <div class="w-auto h-auto rounded-2xl shadow p-2 bg-[#e4a4ac] shrink-0">
+                        <img src="../assets/gallery/japan/image4.jpg" alt="Hero Image" class="w-auto h-96 rounded-2xl object-contain bg-[#e4a4ac]" />
+                    </div>
+                </div>
+            </div>
+            <div class="absolute top-40 left-[-20px]">
+                <button class="bg-[#506582] text-white rounded-full p-4" @click="kimonoLeft()">
+                    <img src="../assets/svgs/chevron_left_24dp_E3E3E3.svg" alt="Left Arrow" class="w-6 h-6" />
+                </button>
+            </div>
+            <div class="absolute top-40 right-[-20px]">
+                <button class="bg-[#506582] text-white rounded-full p-4" @click="kimonoRight()">
                     <img src="../assets/svgs/chevron_right_24dp_E3E3E3.svg" alt="Left Arrow" class="w-6 h-6" />
                 </button>
             </div>
